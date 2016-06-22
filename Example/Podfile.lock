@@ -1,0 +1,16 @@
+PODS:
+  - RGSDotGridView (0.1.0)
+
+DEPENDENCIES:
+  - RGSDotGridView (from `../`)
+
+EXTERNAL SOURCES:
+  RGSDotGridView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RGSDotGridView: 69cba3fa402b67ff4545d1a9f72090da49c4d1b8
+
+PODFILE CHECKSUM: 244504260f18e593b53c5944218d228a746650e0
+
+COCOAPODS: 1.0.0

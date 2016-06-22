@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C843A290C697DD4BD88AA756118075B /* Pods-RGSDotGridView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F208943F3E8661C2E10CBFA0975A5225 /* Pods-RGSDotGridView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48D4B7ED1B48900CF094BA1F60CC80C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4BC628775BD04720D48FAAA89221AA9E /* Pods-RGSDotGridView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 209BC1BE2FFEE67E88004996ED8CFC2E /* Pods-RGSDotGridView_Tests-dummy.m */; };
+		6B660B5C2C724BC6D2665A36A6C49E2B /* DotGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDF81A8ADF945CDAA791A86AFEB81E4 /* DotGridView.swift */; };
+		754AA45D8819822BF27624694970344C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7C13C761A77FF0EEA14D0D30EE6397CF /* RGSDotGridView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 480813298FB7377843CB87BDFCC352CD /* RGSDotGridView-dummy.m */; };
+		86E9C533BF68BD44E019B2EE162DADBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A596BDD1B3C1B96672E7866D49CBCF64 /* RGSDotGridView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E844D4751B0622A474CCE320E6472F /* RGSDotGridView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C73025DBD8CD4AB5F0BE9BCA225DF846 /* Pods-RGSDotGridView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5C2212B05340E7B50297B76A0231C /* Pods-RGSDotGridView_Example-dummy.m */; };
+		D24584E1C46BA2B71D5BE00682D8D42C /* Pods-RGSDotGridView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4F8C85331C4E59E71292CED69A83E0 /* Pods-RGSDotGridView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D82EC559456BC58FA607256EF94D7BFD /* DotGridButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1673C173ADB032F03EA17F7CE404184B /* DotGridButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		059614A19E589F12F64C288481D55BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CB058D38D4D55210E689ECD6C73D0E7;
+			remoteInfo = RGSDotGridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060F50BB3C63B9E9C85F2CF6344825FF /* Pods-RGSDotGridView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RGSDotGridView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1673C173ADB032F03EA17F7CE404184B /* DotGridButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DotGridButton.swift; sourceTree = "<group>"; };
+		17A74FD1C877359EDC29B5BAB6ABA264 /* RGSDotGridView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGSDotGridView-prefix.pch"; sourceTree = "<group>"; };
+		1BF5C2212B05340E7B50297B76A0231C /* Pods-RGSDotGridView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RGSDotGridView_Example-dummy.m"; sourceTree = "<group>"; };
+		209BC1BE2FFEE67E88004996ED8CFC2E /* Pods-RGSDotGridView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RGSDotGridView_Tests-dummy.m"; sourceTree = "<group>"; };
+		23AF25CFF6986F5888842932D8D7D7C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E79AF6797E9875449C701E5188B5227 /* Pods-RGSDotGridView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RGSDotGridView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		366986F9B6639EB479900C9A01790D31 /* Pods-RGSDotGridView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGSDotGridView_Tests-resources.sh"; sourceTree = "<group>"; };
+		480813298FB7377843CB87BDFCC352CD /* RGSDotGridView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RGSDotGridView-dummy.m"; sourceTree = "<group>"; };
+		48F9D53CEBA4784C750E394FB1AD5C6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497DE86DF5A3B75CBDD95250599726DD /* Pods_RGSDotGridView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGSDotGridView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A8E20963B0AB10BF0E50BC7C7891B5 /* Pods-RGSDotGridView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RGSDotGridView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B1349D45C423BB04F50B5613DFDB6D7 /* Pods-RGSDotGridView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSDotGridView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6F2C0437E1B0A4388EFECD7156F46835 /* Pods-RGSDotGridView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSDotGridView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		74E2D66F63D9F8CF440F8AB6320F2B90 /* Pods-RGSDotGridView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSDotGridView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7884412193BB70C0EFED5FE508500F75 /* Pods-RGSDotGridView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RGSDotGridView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		885DA99700136DEBC04704B52E1682FD /* RGSDotGridView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RGSDotGridView.xcconfig; sourceTree = "<group>"; };
+		900AD11404F36728CD119D74A0E9EAF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909BA6FCE89A3A98222FFBFB97E2E7E4 /* RGSDotGridView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RGSDotGridView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96AECBDAB07F58AFBACD7C5A86FAA337 /* Pods-RGSDotGridView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RGSDotGridView_Example.modulemap"; sourceTree = "<group>"; };
+		9CF67F4D685DBBBD01D007988B763F94 /* Pods-RGSDotGridView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGSDotGridView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B02ED472360C34A5FD595AC4EED813D2 /* Pods_RGSDotGridView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGSDotGridView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1975DBB7F0BC38A155E6EE06984DBAD /* RGSDotGridView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RGSDotGridView.modulemap; sourceTree = "<group>"; };
+		BD572E0C31E031730B4B712A5A4F9148 /* Pods-RGSDotGridView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RGSDotGridView_Tests.modulemap"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DDDF81A8ADF945CDAA791A86AFEB81E4 /* DotGridView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DotGridView.swift; sourceTree = "<group>"; };
+		EFC8721CDAB8D978B97BFABF9F0C8803 /* Pods-RGSDotGridView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGSDotGridView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F0ABDDCFBAC40DDF845C67A6DD245A6D /* Pods-RGSDotGridView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGSDotGridView_Example-resources.sh"; sourceTree = "<group>"; };
+		F208943F3E8661C2E10CBFA0975A5225 /* Pods-RGSDotGridView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RGSDotGridView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F486E4C8F80AA2D89E20D8CAB2661ABD /* Pods-RGSDotGridView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSDotGridView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F4E844D4751B0622A474CCE320E6472F /* RGSDotGridView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGSDotGridView-umbrella.h"; sourceTree = "<group>"; };
+		FC4F8C85331C4E59E71292CED69A83E0 /* Pods-RGSDotGridView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RGSDotGridView_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C039F537DE1191044C7780AFD45F8977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D4B7ED1B48900CF094BA1F60CC80C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FA344EF542B629C946E2D4E60CE0B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E9C533BF68BD44E019B2EE162DADBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96D9182B0F17083D3791E2F3BB832E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754AA45D8819822BF27624694970344C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4E1688EEFB20625FFDBD8AF4968D91 /* RGSDotGridView */ = {
+			isa = PBXGroup;
+			children = (
+				B946443EFEED9CC5A0FEBF2B6D93963A /* RGSDotGridView */,
+				CDAF7C220CE6BA408C686FECAD745006 /* Support Files */,
+			);
+			name = RGSDotGridView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		498B447D20385A15D023DFE15A0E7B07 /* Pods-RGSDotGridView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				23AF25CFF6986F5888842932D8D7D7C6 /* Info.plist */,
+				BD572E0C31E031730B4B712A5A4F9148 /* Pods-RGSDotGridView_Tests.modulemap */,
+				7884412193BB70C0EFED5FE508500F75 /* Pods-RGSDotGridView_Tests-acknowledgements.markdown */,
+				060F50BB3C63B9E9C85F2CF6344825FF /* Pods-RGSDotGridView_Tests-acknowledgements.plist */,
+				209BC1BE2FFEE67E88004996ED8CFC2E /* Pods-RGSDotGridView_Tests-dummy.m */,
+				9CF67F4D685DBBBD01D007988B763F94 /* Pods-RGSDotGridView_Tests-frameworks.sh */,
+				366986F9B6639EB479900C9A01790D31 /* Pods-RGSDotGridView_Tests-resources.sh */,
+				F208943F3E8661C2E10CBFA0975A5225 /* Pods-RGSDotGridView_Tests-umbrella.h */,
+				74E2D66F63D9F8CF440F8AB6320F2B90 /* Pods-RGSDotGridView_Tests.debug.xcconfig */,
+				6F2C0437E1B0A4388EFECD7156F46835 /* Pods-RGSDotGridView_Tests.release.xcconfig */,
+			);
+			name = "Pods-RGSDotGridView_Tests";
+			path = "Target Support Files/Pods-RGSDotGridView_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FE96BEFEEC8F14F3A2A8E26C50BE0DC5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				99F528D2FBC6AE627662FF7609378C5B /* Products */,
+				AB68A51D5F748245822B20AE29AA1AE9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		99F528D2FBC6AE627662FF7609378C5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B02ED472360C34A5FD595AC4EED813D2 /* Pods_RGSDotGridView_Example.framework */,
+				497DE86DF5A3B75CBDD95250599726DD /* Pods_RGSDotGridView_Tests.framework */,
+				909BA6FCE89A3A98222FFBFB97E2E7E4 /* RGSDotGridView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6AB3F5D5EBB82145998A7A29AF6AF8A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1673C173ADB032F03EA17F7CE404184B /* DotGridButton.swift */,
+				DDDF81A8ADF945CDAA791A86AFEB81E4 /* DotGridView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AB68A51D5F748245822B20AE29AA1AE9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB7F8C8DAC71AF55A177793380357A59 /* Pods-RGSDotGridView_Example */,
+				498B447D20385A15D023DFE15A0E7B07 /* Pods-RGSDotGridView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AB7F8C8DAC71AF55A177793380357A59 /* Pods-RGSDotGridView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				48F9D53CEBA4784C750E394FB1AD5C6D /* Info.plist */,
+				96AECBDAB07F58AFBACD7C5A86FAA337 /* Pods-RGSDotGridView_Example.modulemap */,
+				59A8E20963B0AB10BF0E50BC7C7891B5 /* Pods-RGSDotGridView_Example-acknowledgements.markdown */,
+				2E79AF6797E9875449C701E5188B5227 /* Pods-RGSDotGridView_Example-acknowledgements.plist */,
+				1BF5C2212B05340E7B50297B76A0231C /* Pods-RGSDotGridView_Example-dummy.m */,
+				EFC8721CDAB8D978B97BFABF9F0C8803 /* Pods-RGSDotGridView_Example-frameworks.sh */,
+				F0ABDDCFBAC40DDF845C67A6DD245A6D /* Pods-RGSDotGridView_Example-resources.sh */,
+				FC4F8C85331C4E59E71292CED69A83E0 /* Pods-RGSDotGridView_Example-umbrella.h */,
+				6B1349D45C423BB04F50B5613DFDB6D7 /* Pods-RGSDotGridView_Example.debug.xcconfig */,
+				F486E4C8F80AA2D89E20D8CAB2661ABD /* Pods-RGSDotGridView_Example.release.xcconfig */,
+			);
+			name = "Pods-RGSDotGridView_Example";
+			path = "Target Support Files/Pods-RGSDotGridView_Example";
+			sourceTree = "<group>";
+		};
+		B946443EFEED9CC5A0FEBF2B6D93963A /* RGSDotGridView */ = {
+			isa = PBXGroup;
+			children = (
+				A6AB3F5D5EBB82145998A7A29AF6AF8A /* Classes */,
+			);
+			path = RGSDotGridView;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDAF7C220CE6BA408C686FECAD745006 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				900AD11404F36728CD119D74A0E9EAF7 /* Info.plist */,
+				B1975DBB7F0BC38A155E6EE06984DBAD /* RGSDotGridView.modulemap */,
+				885DA99700136DEBC04704B52E1682FD /* RGSDotGridView.xcconfig */,
+				480813298FB7377843CB87BDFCC352CD /* RGSDotGridView-dummy.m */,
+				17A74FD1C877359EDC29B5BAB6ABA264 /* RGSDotGridView-prefix.pch */,
+				F4E844D4751B0622A474CCE320E6472F /* RGSDotGridView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RGSDotGridView";
+			sourceTree = "<group>";
+		};
+		FE96BEFEEC8F14F3A2A8E26C50BE0DC5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C4E1688EEFB20625FFDBD8AF4968D91 /* RGSDotGridView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		019704E56E0D3BB41B36B61E8D872A1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A596BDD1B3C1B96672E7866D49CBCF64 /* RGSDotGridView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06228AB1D75FACCB4DCE1D9F7427933E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24584E1C46BA2B71D5BE00682D8D42C /* Pods-RGSDotGridView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90903C943300F0A7952ACD2A717B2C24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C843A290C697DD4BD88AA756118075B /* Pods-RGSDotGridView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23F2A953A414053518B0FAFDECDD7233 /* Pods-RGSDotGridView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7318FB7E2C01DAF717616D5517A52E80 /* Build configuration list for PBXNativeTarget "Pods-RGSDotGridView_Example" */;
+			buildPhases = (
+				4578FC9159615B02FBF44176C14986AA /* Sources */,
+				F96D9182B0F17083D3791E2F3BB832E4 /* Frameworks */,
+				06228AB1D75FACCB4DCE1D9F7427933E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF52570758957F226767106CB0481086 /* PBXTargetDependency */,
+			);
+			name = "Pods-RGSDotGridView_Example";
+			productName = "Pods-RGSDotGridView_Example";
+			productReference = B02ED472360C34A5FD595AC4EED813D2 /* Pods_RGSDotGridView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60F0C7F06FD555EFFA5A3940DA26D941 /* Pods-RGSDotGridView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E179CE0FAB45E004CD29DCADAEE70792 /* Build configuration list for PBXNativeTarget "Pods-RGSDotGridView_Tests" */;
+			buildPhases = (
+				16CFBC4506A5A1CAD2E208F99EA47DA1 /* Sources */,
+				D2FA344EF542B629C946E2D4E60CE0B4 /* Frameworks */,
+				90903C943300F0A7952ACD2A717B2C24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RGSDotGridView_Tests";
+			productName = "Pods-RGSDotGridView_Tests";
+			productReference = 497DE86DF5A3B75CBDD95250599726DD /* Pods_RGSDotGridView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CB058D38D4D55210E689ECD6C73D0E7 /* RGSDotGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0723112715635BA049A5CA45DEA2F39 /* Build configuration list for PBXNativeTarget "RGSDotGridView" */;
+			buildPhases = (
+				5F2EF64ED54897081DF4772C1F641092 /* Sources */,
+				C039F537DE1191044C7780AFD45F8977 /* Frameworks */,
+				019704E56E0D3BB41B36B61E8D872A1A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGSDotGridView;
+			productName = RGSDotGridView;
+			productReference = 909BA6FCE89A3A98222FFBFB97E2E7E4 /* RGSDotGridView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 99F528D2FBC6AE627662FF7609378C5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23F2A953A414053518B0FAFDECDD7233 /* Pods-RGSDotGridView_Example */,
+				60F0C7F06FD555EFFA5A3940DA26D941 /* Pods-RGSDotGridView_Tests */,
+				6CB058D38D4D55210E689ECD6C73D0E7 /* RGSDotGridView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16CFBC4506A5A1CAD2E208F99EA47DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC628775BD04720D48FAAA89221AA9E /* Pods-RGSDotGridView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4578FC9159615B02FBF44176C14986AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73025DBD8CD4AB5F0BE9BCA225DF846 /* Pods-RGSDotGridView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2EF64ED54897081DF4772C1F641092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82EC559456BC58FA607256EF94D7BFD /* DotGridButton.swift in Sources */,
+				6B660B5C2C724BC6D2665A36A6C49E2B /* DotGridView.swift in Sources */,
+				7C13C761A77FF0EEA14D0D30EE6397CF /* RGSDotGridView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF52570758957F226767106CB0481086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RGSDotGridView;
+			target = 6CB058D38D4D55210E689ECD6C73D0E7 /* RGSDotGridView */;
+			targetProxy = 059614A19E589F12F64C288481D55BC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05B27187CCF00F620CCB581A87AADC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F486E4C8F80AA2D89E20D8CAB2661ABD /* Pods-RGSDotGridView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSDotGridView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSDotGridView_Example/Pods-RGSDotGridView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGSDotGridView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C1CB497AF1E2357E2FEAF5B1BF0F1CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F2C0437E1B0A4388EFECD7156F46835 /* Pods-RGSDotGridView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSDotGridView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSDotGridView_Tests/Pods-RGSDotGridView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGSDotGridView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3408B15FF35871D2A7D9209FE063C2F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885DA99700136DEBC04704B52E1682FD /* RGSDotGridView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RGSDotGridView/RGSDotGridView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RGSDotGridView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RGSDotGridView/RGSDotGridView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RGSDotGridView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4ED1D6382727B483AD8980A81E6279A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1349D45C423BB04F50B5613DFDB6D7 /* Pods-RGSDotGridView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSDotGridView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSDotGridView_Example/Pods-RGSDotGridView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGSDotGridView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D6B98E60C2C12D871DA7482EB898D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E2D66F63D9F8CF440F8AB6320F2B90 /* Pods-RGSDotGridView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSDotGridView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSDotGridView_Tests/Pods-RGSDotGridView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGSDotGridView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D5FCFD15D1EC40B7BCCCA31E68135881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885DA99700136DEBC04704B52E1682FD /* RGSDotGridView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RGSDotGridView/RGSDotGridView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RGSDotGridView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RGSDotGridView/RGSDotGridView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RGSDotGridView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7318FB7E2C01DAF717616D5517A52E80 /* Build configuration list for PBXNativeTarget "Pods-RGSDotGridView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED1D6382727B483AD8980A81E6279A9 /* Debug */,
+				05B27187CCF00F620CCB581A87AADC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0723112715635BA049A5CA45DEA2F39 /* Build configuration list for PBXNativeTarget "RGSDotGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FCFD15D1EC40B7BCCCA31E68135881 /* Debug */,
+				3408B15FF35871D2A7D9209FE063C2F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E179CE0FAB45E004CD29DCADAEE70792 /* Build configuration list for PBXNativeTarget "Pods-RGSDotGridView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6B98E60C2C12D871DA7482EB898D2E /* Debug */,
+				0C1CB497AF1E2357E2FEAF5B1BF0F1CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
