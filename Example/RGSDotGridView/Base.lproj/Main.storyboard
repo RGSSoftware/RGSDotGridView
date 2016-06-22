@@ -19,22 +19,39 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZd-B8-AlO" customClass="DotGridButton" customModule="RGSDotGridView">
-                                <rect key="frame" x="275" y="275" width="50" height="50"/>
+                                <rect key="frame" x="275" y="235" width="50" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="2eE-sX-BQE"/>
                                     <constraint firstAttribute="width" secondItem="MZd-B8-AlO" secondAttribute="height" multiplier="1:1" id="Ebz-5e-Zny"/>
                                 </constraints>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Nz-Ko-9wF">
+                                <rect key="frame" x="204" y="556" width="193" height="30"/>
+                                <color key="backgroundColor" red="0.1529411765" green="0.68235294120000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="IEU-u9-kYN"/>
+                                    <constraint firstAttribute="width" constant="193" id="w9V-ED-7Kc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="ANIMATE">
+                                    <color key="titleColor" white="0.98999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="animateDotGridView:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hHk-YK-HVA"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.10000000000000001" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="8Nz-Ko-9wF" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="7p0-zP-aHC"/>
                             <constraint firstItem="MZd-B8-AlO" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="KDa-PS-fna"/>
-                            <constraint firstItem="MZd-B8-AlO" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="jfs-KB-7mf"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="8Nz-Ko-9wF" secondAttribute="bottom" constant="14" id="h8C-wd-OcT"/>
+                            <constraint firstItem="MZd-B8-AlO" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" constant="-40" id="jfs-KB-7mf"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="dotGridButton" destination="MZd-B8-AlO" id="fdZ-bg-e5m"/>
+                        <outlet property="dotGridButton" destination="MZd-B8-AlO" id="TKW-7p-Aa5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

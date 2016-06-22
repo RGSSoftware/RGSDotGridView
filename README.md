@@ -1,6 +1,7 @@
 # RGSDotGridView
 
-[![CI Status](http://img.shields.io/travis/Randel Smith/RGSDotGridView.svg?style=flat)](https://travis-ci.org/Randel Smith/RGSDotGridView)
+This project is an implementation of a [Dribbble](https://dribbble.com/shots/2717289-Button-animation) shot.
+
 [![Version](https://img.shields.io/cocoapods/v/RGSDotGridView.svg?style=flat)](http://cocoapods.org/pods/RGSDotGridView)
 [![License](https://img.shields.io/cocoapods/l/RGSDotGridView.svg?style=flat)](http://cocoapods.org/pods/RGSDotGridView)
 [![Platform](https://img.shields.io/cocoapods/p/RGSDotGridView.svg?style=flat)](http://cocoapods.org/pods/RGSDotGridView)
@@ -20,9 +21,45 @@ it, simply add the following line to your Podfile:
 pod "RGSDotGridView"
 ```
 
-## Author
+## Using RGSDotGridView
 
-Randel Smith, homankids@gmail.com
+### DotGridButton Storyboard Example
+- Add an UIView to your storyboard. 
+- Change its subclass to DotGridButton.
+
+
+```swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+
+    ...
+
+    self.dotGridButton.layer.cornerRadius = CGRectGetWidth(self.dotGridButton.frame)/2
+
+    ...
+}
+```
+
+For full example please try project.
+
+## Customization
+
+`RGSDotGridView` can be customized via the following classes
+
+```swift
+class DotGridView : UIView
+
+var dotsDiameter: Double
+var dotsColor: UIColor
+
+func animateFull()
+func animateClose()
+
+
+class DotGridButton : UIButton
+
+var dotView: DotGridView!
+```
 
 ## License
 

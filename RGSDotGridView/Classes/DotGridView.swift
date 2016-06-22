@@ -8,10 +8,10 @@
 
 import UIKit
 
-class DotGridView: UIView {
+public class DotGridView: UIView {
     
-    var dotsDiameter : Double = 10;
-    var dotsColor = UIColor.blackColor()
+    public var dotsDiameter : Double = 10;
+    public var dotsColor = UIColor.blackColor()
     
     
     private var left = UIView()
@@ -23,17 +23,17 @@ class DotGridView: UIView {
     
     private var dotVeiws = [UIView]()
     
-    override init (frame : CGRect) {
+    override public init (frame : CGRect) {
         super.init(frame : frame)
         addBehavior()
     }
     
-    convenience init () {
+    convenience public init () {
         self.init(frame:CGRect.zero)
         addBehavior ()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         addBehavior ()
     }
@@ -44,7 +44,7 @@ class DotGridView: UIView {
 
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         
         for aView in self.dotVeiws {
@@ -94,7 +94,7 @@ class DotGridView: UIView {
 
     }
     
-    func animateFull()  {
+    public func animateFull()  {
         UIView.animateWithDuration(0.1, delay: 0, options: UIViewAnimationOptions.CurveLinear, animations: {
             self.left.center = self.viewValue[self.left]!["start"]!
             self.top.center = self.viewValue[self.top]!["start"]!
@@ -104,7 +104,7 @@ class DotGridView: UIView {
             }, completion: nil)
     }
     
-    func animateClose() {
+    public func animateClose() {
         UIView.animateWithDuration(0.2, delay: 0, options: UIViewAnimationOptions.CurveLinear, animations: {
             self.left.center = self.viewValue[self.left]!["end"]!
             self.top.center = self.viewValue[self.top]!["end"]!

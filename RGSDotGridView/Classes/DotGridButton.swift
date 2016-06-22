@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DotGridButton: UIButton {
+public class DotGridButton: UIButton {
     
     var isFull = true
     
@@ -24,7 +24,7 @@ class DotGridButton: UIButton {
         addBehavior ()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         addBehavior ()
     }
@@ -38,17 +38,17 @@ class DotGridButton: UIButton {
         self.addSubview(self.dotView);
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         self.dotView.center = CGPointMake(CGRectGetWidth(self.bounds)/2, CGRectGetHeight(self.bounds)/2)
     }
     
-    override var highlighted: Bool {
+    override public var highlighted: Bool {
         get {
             return super.highlighted
         }
         set {
             if newValue {
-                self.dotView.alpha = 0.8
+                self.dotView.alpha = 0.6
             }
             else {
                 self.dotView.alpha = 1
@@ -58,7 +58,7 @@ class DotGridButton: UIButton {
     }
     
     
-    override func touchesCancelled(touches: Set<UITouch>!, withEvent event: UIEvent!) {
+    override public func touchesCancelled(touches: Set<UITouch>!, withEvent event: UIEvent!) {
         
         if self.isFull {
             
@@ -76,7 +76,7 @@ class DotGridButton: UIButton {
         
     }
     
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override public func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
         if self.isFull {
             
