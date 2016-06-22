@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'RGSDotGridView'
   s.version          = '0.1.1'
-  s.summary          = 'A UIBbutton animating between filter and close.'
+  s.summary          = 'An UIBbutton animating between filter and close.'
   s.description      = <<-DESC
-                        A UIBbutton animating between filter and close.
+                        An UIBbutton Dribbble shot animating between filter and close.
                        DESC
 
   s.homepage         = 'https://github.com/RGSSoftware/RGSDotGridView'
