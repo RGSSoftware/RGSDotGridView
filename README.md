@@ -6,6 +6,8 @@ This project is an implementation of a [Dribbble](https://dribbble.com/shots/271
 [![License](https://img.shields.io/cocoapods/l/RGSDotGridView.svg?style=flat)](http://cocoapods.org/pods/RGSDotGridView)
 [![Platform](https://img.shields.io/cocoapods/p/RGSDotGridView.svg?style=flat)](http://cocoapods.org/pods/RGSDotGridView)
 
+<img src="https://github.com/RGSSoftware/RGSDotGridView/blob/master/screenshots/preview.gif" alt="iPhone 5" width="396" />
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
