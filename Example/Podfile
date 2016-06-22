@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RGSDotGridView_Example' do
+  pod 'RGSDotGridView', :path => '../'
+
+  target 'RGSDotGridView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
