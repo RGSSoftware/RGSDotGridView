@@ -51,16 +51,16 @@ For full example please try project.
 ```swift
 class DotGridView : UIView
 
-var dotsDiameter: Double
-var dotsColor: UIColor
+    var dotsDiameter: Double
+    var dotsColor: UIColor
 
-func animateFull()
-func animateClose()
+    func animateFull()
+    func animateClose()
 
 
 class DotGridButton : UIButton
 
-var dotView: DotGridView!
+    var dotView: DotGridView!
 ```
 
 ## License
