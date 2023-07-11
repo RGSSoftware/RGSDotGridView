@@ -1,7 +1,3 @@
-<a href="https://github.com/RGSSoftware/HireMe">
-  <img src="https://github.com/RGSSoftware/HireMe/blob/master/HireMeBanner.png" >
-</a>
-
 # RGSDotGridView
 
 This project is an implementation of a [Dribbble](https://dribbble.com/shots/2717289-Button-animation) shot.
